@@ -1165,7 +1165,7 @@ function lib:Window(title, version)
 			dividercontent.TextXAlignment = Enum.TextXAlignment.Left
 			dividercontent.TextYAlignment = Enum.TextYAlignment.Top
 			
-					function tabcontent:KeyBind(text, keypreset, callback)
+			function pages:KeyBind(text, keypreset, callback)
             local binding = false
             local Key = keypreset.Name
             local Bind = Instance.new("TextButton")
